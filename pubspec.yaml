@@ -1,0 +1,49 @@
+name: weatherapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-165.1.beta <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  syncfusion_flutter_charts: ^20.2.44
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/icon-01.jpg
+    - assets/images/rain.png
+    - assets/images/ran.png
+    - assets/images/colud.png
+    - assets/images/sun0.jpg
+  #   - images/a_dot_ham.jpeg
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
